@@ -1,0 +1,1164 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>YouTube</title>
+        <link rel="stylesheet" href="yt-video-syf-kopya.css" />
+        <link rel="icon" type="image/svg+xml" href="youtube-svgrepo-com.svg" />
+        <title>YouTube</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+            rel="stylesheet"
+            YouTubex
+            Premium
+        />
+    </head>
+    <body>
+        <div class="header">
+            <div class="header-left">
+                <div class="justify">
+                    <i class="bi bi-list"></i>
+                </div>
+                <div class="youtube-icon">
+                    <img src="YouTube_Logo_2017.svg.png" alt="YouTube Logo" />
+                    <p>TR</p>
+                </div>
+            </div>
+            <div class="header-center">
+                <div class="input-dis">
+                    <div class="input-t">
+                        <input placeholder="Ara" type="text" />
+                    </div>
+                    <button class="search-button">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </div>
+                <div class="mini-input">
+                    <button class="">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </div>
+                <button class="mic">
+                    <i class="bi bi-mic"></i>
+                </button>
+            </div>
+            <div class="header-right">
+                <div class="olustur">
+                    <i class="arti bi bi-plus"></i>
+                    <p>Oluştur</p>
+                </div>
+                <div class="bildirim">
+                    <i class="bi bi-bell"></i>
+                    <span class="bildirim-red">4</span>
+                </div>
+                <div class="header-foto">
+                    <img src="ahmet-foto.png" alt="ahmet foto" />
+                </div>
+            </div>
+        </div>
+        <div class="video-container">
+            <div class="video-sol">
+                <div class="video-yeri"></div>
+                <div class="yan-bosluklar">
+                    <h3 class="video-title">
+                        AĞAÇLAR ÇOK SİNİR BOZUCU! | TREES HATE YOU |
+                    </h3>
+                    <div class="video-nav">
+                        <div class="video-nav-sol">
+                            <div class="kanal-foto">
+                                <img src="ahmet-foto.png" alt="kanal foto" />
+                                <div class="kanal-text">
+                                    <div class="kanal-isim">Ahmet Sercan</div>
+                                    <div class="kanal-abone-sayisi">
+                                        1,23M abone
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="katil-btn">Katıl</div>
+                            <div class="Abone-ol">Abone Ol</div>
+                        </div>
+                        <div class="video-nav-sag">
+                            <div class="likeler">
+                                <div class="like-btn">
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                    <span>1,2B</span>
+                                </div>
+                                <div class="dik-like-cizgi"></div>
+                                <div class="dislike-btn">
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </div>
+                            </div>
+                            <div class="paylas-btn">
+                                <i class="bi bi-arrow-up-right-circle-fill"></i>
+                                Paylaş
+                            </div>
+                            <div class="kaydet-btn">
+                                <i class="bi bi-bookmark"></i>
+                                Kaydet
+                            </div>
+                            <div class="indir-btn">
+                                <i class="bi bi-download"></i>
+                                İndir
+                            </div>
+                            <div class="uc-nokta-btn">
+                                <i class="bi bi-three-dots"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-nav-aciklama-container">
+                        <div class="video-nav-aciklama">
+                            <div class="aciklama-baslik">
+                                36 B görüntüleme 4 yıl önce Css Dersleri
+                            </div>
+                            Ağaçlar neden sinir bozucu? Bu videoda, ağaçların
+                            neden sinir bozucu olduğunu ve nasıl başa
+                            çıkabileceğinizi keşfedeceğiz. Ağaçların sinir
+                            bozucu davranışları ve etkileri hakkında bilgi
+                            edinin.
+                        </div>
+                        <div class="video-nav-aciklama">
+                            <div class="aciklama-baslik-canli">
+                                Canlı sohbeti tekrar oynat
+                            </div>
+                            Bu video canlı yayınlanırken diğer kullanıcıların
+                            neler konuştuğunu görün.
+                        </div>
+                    </div>
+                    <div class="video-yorum-container">
+                        <div class="yorum-baslik">
+                            <div class="yorum-sayisi">1,234 Yorum</div>
+                            <div class="yorum-sirala">
+                                <i class="bi bi-list-stars"></i> Sıralama ölçütü
+                            </div>
+                        </div>
+                        <div class="yorum-input">
+                            <img src="ahmet-foto.png" alt="ahmet foto" />
+                            <input type="text" placeholder="Yorum ekleyin..." />
+                        </div>
+
+                        <div class="yorum-item">
+                            <img src="ahmet-foto.png" alt="ahmet foto" />
+                            <div class="yorum-item-orta">
+                                <div class="yorum-title">
+                                    @sercan
+                                    <p>3 yıl önce</p>
+                                </div>
+                                <div class="yorum-text">
+                                    Bu video çok iyi bir video, teşekkürler.
+                                </div>
+                                <div class="yorum-begeni">
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                    <span>13</span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                    <p>Yanıtla</p>
+                                </div>
+                            </div>
+                            <div class="yorum-item-sag">
+                                <i class="bi bi-three-dots-vertical"></i>
+                            </div>
+                        </div>
+                        <div class="yorum-item">
+                            <img src="ahmet-foto.png" alt="ahmet foto" />
+                            <div class="yorum-item-orta">
+                                <div class="yorum-title">
+                                    @sercan
+                                    <p>3 yıl önce</p>
+                                </div>
+                                <div class="yorum-text">
+                                    Bu video çok iyi bir video, teşekkürler.
+                                </div>
+                                <div class="yorum-begeni">
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                    <span>13</span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                    <p>Yanıtla</p>
+                                </div>
+                            </div>
+                            <div class="yorum-item-sag">
+                                <i class="bi bi-three-dots-vertical"></i>
+                            </div>
+                        </div>
+                        <div class="yorum-item">
+                            <img src="ahmet-foto.png" alt="ahmet foto" />
+                            <div class="yorum-item-orta">
+                                <div class="yorum-title">
+                                    @sercan
+                                    <p>3 yıl önce</p>
+                                </div>
+                                <div class="yorum-text">
+                                    Bu video çok iyi bir video, teşekkürler.
+                                </div>
+                                <div class="yorum-begeni">
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                    <span>13</span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                    <p>Yanıtla</p>
+                                </div>
+                            </div>
+                            <div class="yorum-item-sag">
+                                <i class="bi bi-three-dots-vertical"></i>
+                            </div>
+                        </div>
+                        <div class="yorum-item">
+                            <img src="ahmet-foto.png" alt="ahmet foto" />
+                            <div class="yorum-item-orta">
+                                <div class="yorum-title">
+                                    @sercan
+                                    <p>3 yıl önce</p>
+                                </div>
+                                <div class="yorum-text">
+                                    Bu video çok iyi bir video, teşekkürler.
+                                </div>
+                                <div class="yorum-begeni">
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                    <span>13</span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                    <p>Yanıtla</p>
+                                </div>
+                            </div>
+                            <div class="yorum-item-sag">
+                                <i class="bi bi-three-dots-vertical"></i>
+                            </div>
+                        </div>
+                        <div class="yorum-item">
+                            <img src="ahmet-foto.png" alt="ahmet foto" />
+                            <div class="yorum-item-orta">
+                                <div class="yorum-title">
+                                    @sercan
+                                    <p>3 yıl önce</p>
+                                </div>
+                                <div class="yorum-text">
+                                    Bu video çok iyi bir video, teşekkürler.
+                                </div>
+                                <div class="yorum-begeni">
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                    <span>13</span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                    <p>Yanıtla</p>
+                                </div>
+                            </div>
+                            <div class="yorum-item-sag">
+                                <i class="bi bi-three-dots-vertical"></i>
+                            </div>
+                        </div>
+                        <div class="yorum-item">
+                            <img src="ahmet-foto.png" alt="ahmet foto" />
+                            <div class="yorum-item-orta">
+                                <div class="yorum-title">
+                                    @sercan
+                                    <p>3 yıl önce</p>
+                                </div>
+                                <div class="yorum-text">
+                                    Bu video çok iyi bir video, teşekkürler.
+                                </div>
+                                <div class="yorum-begeni">
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                    <span>13</span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                    <p>Yanıtla</p>
+                                </div>
+                            </div>
+                            <div class="yorum-item-sag">
+                                <i class="bi bi-three-dots-vertical"></i>
+                            </div>
+                        </div>
+                        <div class="yorum-item">
+                            <img src="ahmet-foto.png" alt="ahmet foto" />
+                            <div class="yorum-item-orta">
+                                <div class="yorum-title">
+                                    @sercan
+                                    <p>3 yıl önce</p>
+                                </div>
+                                <div class="yorum-text">
+                                    Bu video çok iyi bir video, teşekkürler.
+                                </div>
+                                <div class="yorum-begeni">
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                    <span>13</span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                    <p>Yanıtla</p>
+                                </div>
+                            </div>
+                            <div class="yorum-item-sag">
+                                <i class="bi bi-three-dots-vertical"></i>
+                            </div>
+                        </div>
+                        <div class="yorum-item">
+                            <img src="ahmet-foto.png" alt="ahmet foto" />
+                            <div class="yorum-item-orta">
+                                <div class="yorum-title">
+                                    @sercan
+                                    <p>3 yıl önce</p>
+                                </div>
+                                <div class="yorum-text">
+                                    Bu video çok iyi bir video, teşekkürler.
+                                </div>
+                                <div class="yorum-begeni">
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                    <span>13</span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                    <p>Yanıtla</p>
+                                </div>
+                            </div>
+                            <div class="yorum-item-sag">
+                                <i class="bi bi-three-dots-vertical"></i>
+                            </div>
+                        </div>
+                        <div class="yorum-item">
+                            <img src="ahmet-foto.png" alt="ahmet foto" />
+                            <div class="yorum-item-orta">
+                                <div class="yorum-title">
+                                    @sercan
+                                    <p>3 yıl önce</p>
+                                </div>
+                                <div class="yorum-text">
+                                    Bu video çok iyi bir video, teşekkürler.
+                                </div>
+                                <div class="yorum-begeni">
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                    <span>13</span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                    <p>Yanıtla</p>
+                                </div>
+                            </div>
+                            <div class="yorum-item-sag">
+                                <i class="bi bi-three-dots-vertical"></i>
+                            </div>
+                        </div>
+                        <div class="yorum-item">
+                            <img src="ahmet-foto.png" alt="ahmet foto" />
+                            <div class="yorum-item-orta">
+                                <div class="yorum-title">
+                                    @sercan
+                                    <p>3 yıl önce</p>
+                                </div>
+                                <div class="yorum-text">
+                                    Bu video çok iyi bir video, teşekkürler.
+                                </div>
+                                <div class="yorum-begeni">
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                    <span>13</span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                    <p>Yanıtla</p>
+                                </div>
+                            </div>
+                            <div class="yorum-item-sag">
+                                <i class="bi bi-three-dots-vertical"></i>
+                            </div>
+                        </div>
+                        <div class="yorum-item">
+                            <img src="ahmet-foto.png" alt="ahmet foto" />
+                            <div class="yorum-item-orta">
+                                <div class="yorum-title">
+                                    @sercan
+                                    <p>3 yıl önce</p>
+                                </div>
+                                <div class="yorum-text">
+                                    Bu video çok iyi bir video, teşekkürler.
+                                </div>
+                                <div class="yorum-begeni">
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                    <span>13</span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                    <p>Yanıtla</p>
+                                </div>
+                            </div>
+                            <div class="yorum-item-sag">
+                                <i class="bi bi-three-dots-vertical"></i>
+                            </div>
+                        </div>
+                        <div class="yorum-item">
+                            <img src="ahmet-foto.png" alt="ahmet foto" />
+                            <div class="yorum-item-orta">
+                                <div class="yorum-title">
+                                    @sercan
+                                    <p>3 yıl önce</p>
+                                </div>
+                                <div class="yorum-text">
+                                    Bu video çok iyi bir video, teşekkürler.
+                                </div>
+                                <div class="yorum-begeni">
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                    <span>13</span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                    <p>Yanıtla</p>
+                                </div>
+                            </div>
+                            <div class="yorum-item-sag">
+                                <i class="bi bi-three-dots-vertical"></i>
+                            </div>
+                        </div>
+                        <div class="yorum-item">
+                            <img src="ahmet-foto.png" alt="ahmet foto" />
+                            <div class="yorum-item-orta">
+                                <div class="yorum-title">
+                                    @sercan
+                                    <p>3 yıl önce</p>
+                                </div>
+                                <div class="yorum-text">
+                                    Bu video çok iyi bir video, teşekkürler.
+                                </div>
+                                <div class="yorum-begeni">
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                    <span>13</span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                    <p>Yanıtla</p>
+                                </div>
+                            </div>
+                            <div class="yorum-item-sag">
+                                <i class="bi bi-three-dots-vertical"></i>
+                            </div>
+                        </div>
+                        <div class="yorum-item">
+                            <img src="ahmet-foto.png" alt="ahmet foto" />
+                            <div class="yorum-item-orta">
+                                <div class="yorum-title">
+                                    @sercan
+                                    <p>3 yıl önce</p>
+                                </div>
+                                <div class="yorum-text">
+                                    Bu video çok iyi bir video, teşekkürler.
+                                </div>
+                                <div class="yorum-begeni">
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                    <span>13</span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                    <p>Yanıtla</p>
+                                </div>
+                            </div>
+                            <div class="yorum-item-sag">
+                                <i class="bi bi-three-dots-vertical"></i>
+                            </div>
+                        </div>
+                        <div class="yorum-item">
+                            <img src="ahmet-foto.png" alt="ahmet foto" />
+                            <div class="yorum-item-orta">
+                                <div class="yorum-title">
+                                    @sercan
+                                    <p>3 yıl önce</p>
+                                </div>
+                                <div class="yorum-text">
+                                    Bu video çok iyi bir video, teşekkürler.
+                                </div>
+                                <div class="yorum-begeni">
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                    <span>13</span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                    <p>Yanıtla</p>
+                                </div>
+                            </div>
+                            <div class="yorum-item-sag">
+                                <i class="bi bi-three-dots-vertical"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-sag">
+                <div class="video-sag-navbar">
+                    <div class="video-sag-nav-item">
+                        <p>Tümü</p>
+                    </div>
+                    <div class="video-sag-nav-item">
+                        <p>Egitim</p>
+                    </div>
+                    <div class="video-sag-nav-item">
+                        <p>Ahmet Sercan Videoları</p>
+                    </div>
+                    <div class="video-sag-nav-item">
+                        <p>İlgili</p>
+                    </div>
+                    <div class="video-sag-nav-item">
+                        <p>Canlı Yayınlar</p>
+                    </div>
+                    <div class="video-sag-nav-item">
+                        <p>Sıradaki</p>
+                    </div>
+                    <div class="video-sag-nav-item">
+                        <p>Size özel</p>
+                    </div>
+                    <div class="video-sag-nav-item"><p>İzlenenler</p></div>
+                </div>
+                <div class="mobil-video-grid">
+                    <div class="mobil-video-card">
+                        <a href="youtube-video-syfası.html">
+                            <div class="mobil-video-yeri">
+                                <img
+                                    src="Ekran görüntüsü 2026-05-04 115736.png"
+                                    alt=""
+                                />
+                            </div>
+
+                            <div class="mobil-video-info">
+                                <div class="mobil-channel-avatar">
+                                    <img
+                                        src="ahmet-foto.png"
+                                        alt="ahmet foto"
+                                    />
+                                </div>
+
+                                <div class="mobil-text">
+                                    <h4>Türkiye'nin Hipersonik Füzeler Çağı</h4>
+                                    <h4>Başlıyor | Murat İkinci | Sahne #3</h4>
+                                    <p>
+                                        gdh TV
+                                        <i class="bi bi-check-circle-fill"></i>
+                                        ve Sahne!
+                                    </p>
+                                    <span>112 B görüntülenme • 4 ay önce</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="mobil-video-card">
+                        <a href="youtube-video-syfası.html">
+                            <div class="mobil-video-yeri">
+                                <img
+                                    src="Ekran görüntüsü 2026-05-04 115736.png"
+                                    alt=""
+                                />
+                            </div>
+
+                            <div class="mobil-video-info">
+                                <div class="mobil-channel-avatar">
+                                    <img
+                                        src="ahmet-foto.png"
+                                        alt="ahmet foto"
+                                    />
+                                </div>
+
+                                <div class="mobil-text">
+                                    <h4>Türkiye'nin Hipersonik Füzeler Çağı</h4>
+                                    <h4>Başlıyor | Murat İkinci | Sahne #3</h4>
+                                    <p>
+                                        gdh TV
+                                        <i class="bi bi-check-circle-fill"></i>
+                                        ve Sahne!
+                                    </p>
+                                    <span>112 B görüntülenme • 4 ay önce</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="mobil-video-card">
+                        <a href="youtube-video-syfası.html">
+                            <div class="mobil-video-yeri">
+                                <img
+                                    src="Ekran görüntüsü 2026-05-04 115736.png"
+                                    alt=""
+                                />
+                            </div>
+
+                            <div class="mobil-video-info">
+                                <div class="mobil-channel-avatar">
+                                    <img
+                                        src="ahmet-foto.png"
+                                        alt="ahmet foto"
+                                    />
+                                </div>
+
+                                <div class="mobil-text">
+                                    <h4>Türkiye'nin Hipersonik Füzeler Çağı</h4>
+                                    <h4>Başlıyor | Murat İkinci | Sahne #3</h4>
+                                    <p>
+                                        gdh TV
+                                        <i class="bi bi-check-circle-fill"></i>
+                                        ve Sahne!
+                                    </p>
+                                    <span>112 B görüntülenme • 4 ay önce</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="mobil-video-card">
+                        <a href="youtube-video-syfası.html">
+                            <div class="mobil-video-yeri">
+                                <img
+                                    src="Ekran görüntüsü 2026-05-04 115736.png"
+                                    alt=""
+                                />
+                            </div>
+
+                            <div class="mobil-video-info">
+                                <div class="mobil-channel-avatar">
+                                    <img
+                                        src="ahmet-foto.png"
+                                        alt="ahmet foto"
+                                    />
+                                </div>
+
+                                <div class="mobil-text">
+                                    <h4>Türkiye'nin Hipersonik Füzeler Çağı</h4>
+                                    <h4>Başlıyor | Murat İkinci | Sahne #3</h4>
+                                    <p>
+                                        gdh TV
+                                        <i class="bi bi-check-circle-fill"></i>
+                                        ve Sahne!
+                                    </p>
+                                    <span>112 B görüntülenme • 4 ay önce</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="mobil-video-card">
+                        <a href="youtube-video-syfası.html">
+                            <div class="mobil-video-yeri">
+                                <img
+                                    src="Ekran görüntüsü 2026-05-04 115736.png"
+                                    alt=""
+                                />
+                            </div>
+
+                            <div class="mobil-video-info">
+                                <div class="mobil-channel-avatar">
+                                    <img
+                                        src="ahmet-foto.png"
+                                        alt="ahmet foto"
+                                    />
+                                </div>
+
+                                <div class="mobil-text">
+                                    <h4>Türkiye'nin Hipersonik Füzeler Çağı</h4>
+                                    <h4>Başlıyor | Murat İkinci | Sahne #3</h4>
+                                    <p>
+                                        gdh TV
+                                        <i class="bi bi-check-circle-fill"></i>
+                                        ve Sahne!
+                                    </p>
+                                    <span>112 B görüntülenme • 4 ay önce</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="mobil-video-card">
+                        <a href="youtube-video-syfası.html">
+                            <div class="mobil-video-yeri">
+                                <img
+                                    src="Ekran görüntüsü 2026-05-04 115736.png"
+                                    alt=""
+                                />
+                            </div>
+
+                            <div class="mobil-video-info">
+                                <div class="mobil-channel-avatar">
+                                    <img
+                                        src="ahmet-foto.png"
+                                        alt="ahmet foto"
+                                    />
+                                </div>
+
+                                <div class="mobil-text">
+                                    <h4>Türkiye'nin Hipersonik Füzeler Çağı</h4>
+                                    <h4>Başlıyor | Murat İkinci | Sahne #3</h4>
+                                    <p>
+                                        gdh TV
+                                        <i class="bi bi-check-circle-fill"></i>
+                                        ve Sahne!
+                                    </p>
+                                    <span>112 B görüntülenme • 4 ay önce</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="mobil-video-card">
+                        <div class="mobil-video-yeri">
+                            <img
+                                src="Ekran görüntüsü 2026-05-04 115736.png"
+                                alt=""
+                            />
+                        </div>
+
+                        <div class="mobil-video-info">
+                            <div class="mobil-channel-avatar">
+                                <img src="ahmet-foto.png" alt="ahmet foto" />
+                            </div>
+
+                            <div class="mobil-text">
+                                <h4>Türkiye'nin Hipersonik Füzeler Çağı</h4>
+                                <h4>Başlıyor | Murat İkinci | Sahne #3</h4>
+                                <p>
+                                    gdh TV
+                                    <i class="bi bi-check-circle-fill"></i>
+                                    ve Sahne!
+                                </p>
+                                <span>112 B görüntülenme • 4 ay önce</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-sag-videolar">
+                    <div class="video-sag-video-card">
+                        <div class="card-video"></div>
+
+                        <div class="card-chat">
+                            <div class="card-title">
+                                Ağaçlar neden sinir bozucu?
+                            </div>
+                            <div class="card-kanal">Ahmet Sercan</div>
+                            <div class="card-bilgi">
+                                1.2M görüntülenme • 3 yıl önce
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-sag-video-card">
+                        <div class="card-video"></div>
+
+                        <div class="card-chat">
+                            <div class="card-title">
+                                Ağaçlar neden sinir bozucu?
+                            </div>
+                            <div class="card-kanal">Ahmet Sercan</div>
+                            <div class="card-bilgi">
+                                1.2M görüntülenme • 3 yıl önce
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-sag-video-card">
+                        <div class="card-video"></div>
+
+                        <div class="card-chat">
+                            <div class="card-title">
+                                Ağaçlar neden sinir bozucu?
+                            </div>
+                            <div class="card-kanal">Ahmet Sercan</div>
+                            <div class="card-bilgi">
+                                1.2M görüntülenme • 3 yıl önce
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-sag-video-card">
+                        <div class="card-video"></div>
+
+                        <div class="card-chat">
+                            <div class="card-title">
+                                Ağaçlar neden sinir bozucu?
+                            </div>
+                            <div class="card-kanal">Ahmet Sercan</div>
+                            <div class="card-bilgi">
+                                1.2M görüntülenme • 3 yıl önce
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-sag-video-card">
+                        <div class="card-video"></div>
+
+                        <div class="card-chat">
+                            <div class="card-title">
+                                Ağaçlar neden sinir bozucu?
+                            </div>
+                            <div class="card-kanal">Ahmet Sercan</div>
+                            <div class="card-bilgi">
+                                1.2M görüntülenme • 3 yıl önce
+                            </div>
+                        </div>
+                        3
+                    </div>
+                    <div class="video-sag-video-card">
+                        <div class="card-video"></div>
+
+                        <div class="card-chat">
+                            <div class="card-title">
+                                Ağaçlar neden sinir bozucu?
+                            </div>
+                            <div class="card-kanal">Ahmet Sercan</div>
+                            <div class="card-bilgi">
+                                1.2M görüntülenme • 3 yıl önce
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-sag-video-card">
+                        <div class="card-video"></div>
+
+                        <div class="card-chat">
+                            <div class="card-title">
+                                Ağaçlar neden sinir bozucu?
+                            </div>
+                            <div class="card-kanal">Ahmet Sercan</div>
+                            <div class="card-bilgi">
+                                1.2M görüntülenme • 3 yıl önce
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-sag-video-card">
+                        <div class="card-video"></div>
+
+                        <div class="card-chat">
+                            <div class="card-title">
+                                Ağaçlar neden sinir bozucu?
+                            </div>
+                            <div class="card-kanal">Ahmet Sercan</div>
+                            <div class="card-bilgi">
+                                1.2M görüntülenme • 3 yıl önce
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-sag-video-card">
+                        <div class="card-video"></div>
+
+                        <div class="card-chat">
+                            <div class="card-title">
+                                Ağaçlar neden sinir bozucu?
+                            </div>
+                            <div class="card-kanal">Ahmet Sercan</div>
+                            <div class="card-bilgi">
+                                1.2M görüntülenme • 3 yıl önce
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-sag-video-card">
+                        <div class="card-video"></div>
+
+                        <div class="card-chat">
+                            <div class="card-title">
+                                Ağaçlar neden sinir bozucu?
+                            </div>
+                            <div class="card-kanal">Ahmet Sercan</div>
+                            <div class="card-bilgi">
+                                1.2M görüntülenme • 3 yıl önce
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-sag-video-card">
+                        <div class="card-video"></div>
+
+                        <div class="card-chat">
+                            <div class="card-title">
+                                Ağaçlar neden sinir bozucu?
+                            </div>
+                            <div class="card-kanal">Ahmet Sercan</div>
+                            <div class="card-bilgi">
+                                1.2M görüntülenme • 3 yıl önce
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-sag-video-card">
+                        <div class="card-video"></div>
+
+                        <div class="card-chat">
+                            <div class="card-title">
+                                Ağaçlar neden sinir bozucu?
+                            </div>
+                            <div class="card-kanal">Ahmet Sercan</div>
+                            <div class="card-bilgi">
+                                1.2M görüntülenme • 3 yıl önce
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-sag-video-card">
+                        <div class="card-video"></div>
+
+                        <div class="card-chat">
+                            <div class="card-title">
+                                Ağaçlar neden sinir bozucu?
+                            </div>
+                            <div class="card-kanal">Ahmet Sercan</div>
+                            <div class="card-bilgi">
+                                1.2M görüntülenme • 3 yıl önce
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-sag-video-card">
+                        <div class="card-video"></div>
+
+                        <div class="card-chat">
+                            <div class="card-title">
+                                Ağaçlar neden sinir bozucu?
+                            </div>
+                            <div class="card-kanal">Ahmet Sercan</div>
+                            <div class="card-bilgi">
+                                1.2M görüntülenme • 3 yıl önce
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-sag-video-card">
+                        <div class="card-video"></div>
+
+                        <div class="card-chat">
+                            <div class="card-title">
+                                Ağaçlar neden sinir bozucu?
+                            </div>
+                            <div class="card-kanal">Ahmet Sercan</div>
+                            <div class="card-bilgi">
+                                1.2M görüntülenme • 3 yıl önce
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-sag-video-card">
+                        <div class="card-video"></div>
+
+                        <div class="card-chat">
+                            <div class="card-title">
+                                Ağaçlar neden sinir bozucu?
+                            </div>
+                            <div class="card-kanal">Ahmet Sercan</div>
+                            <div class="card-bilgi">
+                                1.2M görüntülenme • 3 yıl önce
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-sag-video-card">
+                        <div class="card-video"></div>
+
+                        <div class="card-chat">
+                            <div class="card-title">
+                                Ağaçlar neden sinir bozucu?
+                            </div>
+                            <div class="card-kanal">Ahmet Sercan</div>
+                            <div class="card-bilgi">
+                                1.2M görüntülenme • 3 yıl önce
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-sag-video-card">
+                        <div class="card-video"></div>
+
+                        <div class="card-chat">
+                            <div class="card-title">
+                                Ağaçlar neden sinir bozucu?
+                            </div>
+                            <div class="card-kanal">Ahmet Sercan</div>
+                            <div class="card-bilgi">
+                                1.2M görüntülenme • 3 yıl önce
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mobil-video-yorum-container">
+                <div class="mobil-yorum-baslik">
+                    <div class="mobil-yorum-sayisi">1,234 Yorum</div>
+                    <div class="mobil-yorum-sirala">
+                        <i class="bi bi-list-stars"></i> Sıralama ölçütü
+                    </div>
+                </div>
+                <div class="mobil-yorum-input">
+                    <img src="ahmet-foto.png" alt="ahmet foto" />
+                    <input type="text" placeholder="Yorum ekleyin..." />
+                </div>
+                <div class="mobil-yorum-item">
+                    <img src="ahmet-foto.png" alt="ahmet foto" />
+
+                    <div class="mobil-yorum-item-orta">
+                        <div class="mobil-yorum-title">
+                            @sercan
+                            <p>3 yıl önce</p>
+                        </div>
+
+                        <div class="mobil-yorum-text">
+                            Bu video çok iyi bir video, teşekkürler.
+                        </div>
+
+                        <div class="mobil-yorum-begeni">
+                            <i class="bi bi-hand-thumbs-up"></i>
+                            <span>13</span>
+
+                            <i class="bi bi-hand-thumbs-down"></i>
+
+                            <p>Yanıtla</p>
+                        </div>
+                    </div>
+
+                    <div class="mobil-yorum-item-sag">
+                        <i class="bi bi-three-dots-vertical"></i>
+                    </div>
+                </div>
+                <div class="mobil-yorum-item">
+                    <img src="ahmet-foto.png" alt="ahmet foto" />
+
+                    <div class="mobil-yorum-item-orta">
+                        <div class="mobil-yorum-title">
+                            @sercan
+                            <p>3 yıl önce</p>
+                        </div>
+
+                        <div class="mobil-yorum-text">
+                            Bu video çok iyi bir video, teşekkürler.
+                        </div>
+
+                        <div class="mobil-yorum-begeni">
+                            <i class="bi bi-hand-thumbs-up"></i>
+                            <span>13</span>
+
+                            <i class="bi bi-hand-thumbs-down"></i>
+
+                            <p>Yanıtla</p>
+                        </div>
+                    </div>
+
+                    <div class="mobil-yorum-item-sag">
+                        <i class="bi bi-three-dots-vertical"></i>
+                    </div>
+                </div>
+                <div class="mobil-yorum-item">
+                    <img src="ahmet-foto.png" alt="ahmet foto" />
+
+                    <div class="mobil-yorum-item-orta">
+                        <div class="mobil-yorum-title">
+                            @sercan
+                            <p>3 yıl önce</p>
+                        </div>
+
+                        <div class="mobil-yorum-text">
+                            Bu video çok iyi bir video, teşekkürler.
+                        </div>
+
+                        <div class="mobil-yorum-begeni">
+                            <i class="bi bi-hand-thumbs-up"></i>
+                            <span>13</span>
+
+                            <i class="bi bi-hand-thumbs-down"></i>
+
+                            <p>Yanıtla</p>
+                        </div>
+                    </div>
+
+                    <div class="mobil-yorum-item-sag">
+                        <i class="bi bi-three-dots-vertical"></i>
+                    </div>
+                </div>
+                <div class="mobil-yorum-item">
+                    <img src="ahmet-foto.png" alt="ahmet foto" />
+
+                    <div class="mobil-yorum-item-orta">
+                        <div class="mobil-yorum-title">
+                            @sercan
+                            <p>3 yıl önce</p>
+                        </div>
+
+                        <div class="mobil-yorum-text">
+                            Bu video çok iyi bir video, teşekkürler.
+                        </div>
+
+                        <div class="mobil-yorum-begeni">
+                            <i class="bi bi-hand-thumbs-up"></i>
+                            <span>13</span>
+
+                            <i class="bi bi-hand-thumbs-down"></i>
+
+                            <p>Yanıtla</p>
+                        </div>
+                    </div>
+
+                    <div class="mobil-yorum-item-sag">
+                        <i class="bi bi-three-dots-vertical"></i>
+                    </div>
+                </div>
+                <div class="mobil-yorum-item">
+                    <img src="ahmet-foto.png" alt="ahmet foto" />
+
+                    <div class="mobil-yorum-item-orta">
+                        <div class="mobil-yorum-title">
+                            @sercan
+                            <p>3 yıl önce</p>
+                        </div>
+
+                        <div class="mobil-yorum-text">
+                            Bu video çok iyi bir video, teşekkürler.
+                        </div>
+
+                        <div class="mobil-yorum-begeni">
+                            <i class="bi bi-hand-thumbs-up"></i>
+                            <span>13</span>
+
+                            <i class="bi bi-hand-thumbs-down"></i>
+
+                            <p>Yanıtla</p>
+                        </div>
+                    </div>
+
+                    <div class="mobil-yorum-item-sag">
+                        <i class="bi bi-three-dots-vertical"></i>
+                    </div>
+                </div>
+                <div class="mobil-yorum-item">
+                    <img src="ahmet-foto.png" alt="ahmet foto" />
+
+                    <div class="mobil-yorum-item-orta">
+                        <div class="mobil-yorum-title">
+                            @sercan
+                            <p>3 yıl önce</p>
+                        </div>
+
+                        <div class="mobil-yorum-text">
+                            Bu video çok iyi bir video, teşekkürler.
+                        </div>
+
+                        <div class="mobil-yorum-begeni">
+                            <i class="bi bi-hand-thumbs-up"></i>
+                            <span>13</span>
+
+                            <i class="bi bi-hand-thumbs-down"></i>
+
+                            <p>Yanıtla</p>
+                        </div>
+                    </div>
+
+                    <div class="mobil-yorum-item-sag">
+                        <i class="bi bi-three-dots-vertical"></i>
+                    </div>
+                </div>
+                <div class="mobil-yorum-item">
+                    <img src="ahmet-foto.png" alt="ahmet foto" />
+
+                    <div class="mobil-yorum-item-orta">
+                        <div class="mobil-yorum-title">
+                            @sercan
+                            <p>3 yıl önce</p>
+                        </div>
+
+                        <div class="mobil-yorum-text">
+                            Bu video çok iyi bir video, teşekkürler.
+                        </div>
+
+                        <div class="mobil-yorum-begeni">
+                            <i class="bi bi-hand-thumbs-up"></i>
+                            <span>13</span>
+
+                            <i class="bi bi-hand-thumbs-down"></i>
+
+                            <p>Yanıtla</p>
+                        </div>
+                    </div>
+
+                    <div class="mobil-yorum-item-sag">
+                        <i class="bi bi-three-dots-vertical"></i>
+                    </div>
+                </div>
+                <div class="mobil-yorum-item">
+                    <img src="ahmet-foto.png" alt="ahmet foto" />
+
+                    <div class="mobil-yorum-item-orta">
+                        <div class="mobil-yorum-title">
+                            @sercan
+                            <p>3 yıl önce</p>
+                        </div>
+
+                        <div class="mobil-yorum-text">
+                            Bu video çok iyi bir video, teşekkürler.
+                        </div>
+
+                        <div class="mobil-yorum-begeni">
+                            <i class="bi bi-hand-thumbs-up"></i>
+                            <span>13</span>
+
+                            <i class="bi bi-hand-thumbs-down"></i>
+
+                            <p>Yanıtla</p>
+                        </div>
+                    </div>
+
+                    <div class="mobil-yorum-item-sag">
+                        <i class="bi bi-three-dots-vertical"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
