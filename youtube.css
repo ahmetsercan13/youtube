@@ -831,3 +831,8 @@ a {
     }
 }
     
+@media (max-width: 499px) {
+    .olustur {
+        display: none;
+    }
+}
