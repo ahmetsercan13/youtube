@@ -1186,3 +1186,30 @@ body {
         padding: 0 10px;
     }
 }
+
+
+
+@media (max-width: 480px) {
+    
+    .video-nav-sag  {
+        display: flex;
+        gap: 8px;
+        overflow-x: auto;
+        width: 100%;
+        min-width: 0;
+    }
+   
+.video-nav-aciklama {
+      display: flex;
+      height: auto;
+    }
+}
+ 
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* eski Edge/IE */
+}
+
+*::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
