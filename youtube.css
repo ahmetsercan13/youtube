@@ -170,7 +170,19 @@ body {
     font-size: 20px;
 }
 
+.offcanvas{
+    width: 240px;
+}
 
+.offcanvas-body p{
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.offcanvas-body p:hover{
+    background-color: #f2f2f2;
+}
 
 .header-right {
     display: flex;
@@ -179,7 +191,6 @@ body {
     min-width: 215px;
     gap: 10px;
     flex-shrink: 0;
-    margin-right: 28px;
 }
 
 .olustur {
@@ -220,6 +231,8 @@ body {
     height: 40px;
     width: 40px;
     cursor: pointer;
+     margin: 0 8px;
+    margin-right: 16px;
 }
 
 .bildirim:hover {
@@ -255,7 +268,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 15px;
     cursor: pointer;
 }
 
@@ -643,11 +655,6 @@ body {
     color: #606060;
 }
 
-p {
-    margin: 0 !important;
-    padding: 0 !important;
-}
-
 .mini-input {
     display: none;
 }
@@ -803,7 +810,6 @@ a {
         cursor: pointer;
         padding: 0;
         margin: 0;
-        background: white;
     }
 
     .mini-input button i {
@@ -832,8 +838,37 @@ a {
 }
     
 @media (max-width: 499px) {
-    .olustur {
+    .mic {
         display: none;
     }
+}
+
+    
+@media (max-width: 430px) {
+    .olustur p {
+        display: none;
+    }
+    .olustur {
+        width: 40px;
+        padding: 0 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+    
+@media (max-width: 340px) {
+    .header-foto {
+        display: none;
+    }
+  
+}
+
+    
+@media (max-width: 300px) {
+    .bildirim {
+        display: none;
+    }
+  
 }
 

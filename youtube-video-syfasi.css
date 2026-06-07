@@ -8,12 +8,15 @@
 
 }
 
+
 html,
 body {
     height: 100%;
     font-family: Arial;
     overflow-x: hidden;
 }
+
+
 
 
 .header {
@@ -172,7 +175,7 @@ body {
     align-items: center;
     justify-content: flex-end;
     min-width: 215px;
-    gap: 10px;
+    gap: 5px;
     flex-shrink: 0;
     margin-right: 28px;
 }
@@ -199,6 +202,7 @@ body {
 
 .olustur p {
     font-size: 14px;
+    font-weight: 600;
 }
 
 
@@ -212,6 +216,8 @@ body {
 
     height: 40px;
     width: 40px;
+    margin: 0 8px;
+    margin-right: 16px;
 }
 
 .bildirim:hover {
@@ -247,7 +253,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 15px;
+    margin-left: auto;
 }
 
 .header-foto img {
@@ -292,6 +298,7 @@ body {
     border-radius: 16px;
     overflow: hidden;
     background-color: #ebebe9;
+    min-height: 200px;
 }
 
 
@@ -532,7 +539,8 @@ body {
     background-color: #eee;
     border-radius: 20px;
     height: 40px;
-    width: 40px;
+    min-width: 40px !important;
+    padding: 10px; 
     gap: 10px;
     cursor: pointer;
 }
@@ -972,7 +980,7 @@ body {
     .video-sag{
         width: 100%;
         flex-shrink: 1;
-                padding: clamp(10px, 2vw, 24px);
+        padding: clamp(10px, 2vw, 24px);
 
     }
 
@@ -1155,23 +1163,20 @@ body {
         cursor: pointer;
         padding: 0;
         margin: 0;
-        background: white;
     }
 
     .mini-input button i {
         font-size: 20px;
     }
 
-    .mini-input button:hover {
-        background-color: #e6e4e4;
-    }   
+    
     
     .mic {
         background-color: #ffffff;
         margin-left: 0;
     }
     .header {
-        padding: 0 0 0 8px;
+        padding: 0 8px;
     }
 
     .video-nav {
@@ -1199,9 +1204,22 @@ body {
         min-width: 0;
     }
    
+    
+    .video-nav-sol  {
+        display: flex;
+        gap: 8px;
+        overflow-x: auto;
+        width: 100%;
+        min-width: 0;
+    }
+   
 .video-nav-aciklama {
       display: flex;
       height: auto;
+    }
+    .uc-nokta-btn {
+        display: flex;
+        width: 40px !important;
     }
 }
  
@@ -1213,3 +1231,103 @@ body {
 *::-webkit-scrollbar {
   display: none; /* Chrome, Safari */
 }
+
+
+@media (max-width: 657px) {
+    .input-dis {
+        display: none;
+    }
+    .header-center {
+        justify-content: flex-end;
+    }
+    .mini-input {
+        display: flex;
+        margin-left: 0;
+        
+    }
+    .mini-input button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        width: 40px;
+        height: 40px;
+        border-radius: 1000px;
+        cursor: pointer;
+        padding: 0;
+        margin: 0;
+        background-color: inherit;
+    }
+
+    .mini-input button i {
+        font-size: 20px;
+    }
+
+    .mic {
+        background-color: #ffffff;
+        margin-left: 0;
+    }
+
+    
+    .header-right {
+        display: flex;
+        align-items: center;
+        min-width: 0;
+        gap: 0px;
+        margin-right: 0;
+    }
+
+    .header {
+        padding: 0 8px;
+    }
+}
+
+  
+@media (max-width: 499px) {
+    .mic {
+        display: none;
+    }
+}
+  
+@media (max-width: 480px) {
+    .indir-btn {
+        display: none;
+    }
+}
+
+    
+@media (max-width: 430px) {
+    .olustur p {
+        display: none;
+    }
+    .olustur {
+        width: 40px;
+        padding: 0 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+    
+@media (max-width: 390px) {
+    .kaydet-btn {
+        display: none;
+    }
+  
+}
+    
+@media (max-width: 340px) {
+    .header-foto {
+        display: none;
+    }
+  
+}
+
+    
+@media (max-width: 300px) {
+    .bildirim {
+        display: none;
+    }
+  
+}
+
