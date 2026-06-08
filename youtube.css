@@ -810,6 +810,7 @@ a {
         cursor: pointer;
         padding: 0;
         margin: 0;
+        background-color: inherit;
     }
 
     .mini-input button i {
